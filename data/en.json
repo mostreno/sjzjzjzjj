@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "careers": "Careers",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "badge": "Digital Marketing Agency",
+    "title": "We Build Your Digital Presence",
+    "titleAccent": "From Idea to Growth",
+    "subtitle": "Lahza Media is your digital partner — we understand your business, deliver the right solution, and stay with you until you see real results.",
+    "ctaPrimary": "Explore Services",
+    "ctaSecondary": "View Our Work"
+  },
+  "stats": {
+    "years": "Years of Experience",
+    "services": "Services",
+    "projects": "Projects Delivered"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Complete digital solutions under one roof",
+    "viewAll": "All Services",
+    "learnMore": "Learn More"
+  },
+  "portfolio": {
+    "title": "Our Work",
+    "subtitle": "Projects we're proud of",
+    "viewAll": "All Projects",
+    "visitSite": "Visit Website"
+  },
+  "about": { "title": "About Us", "subtitle": "Your digital partner from idea to growth" },
+  "contact": { "title": "Contact Us", "subtitle": "We'd love to hear from you", "call": "Call Us", "whatsapp": "WhatsApp" },
+  "careers": { "title": "Careers", "subtitle": "Join the Lahza Media team" },
+  "faq": { "title": "FAQ", "subtitle": "Answers to the most common questions" },
+  "footer": { "rights": "All Rights Reserved", "quickLinks": "Quick Links", "contactUs": "Contact Us" },
+  "cta": { "title": "Ready to Start Your Project?", "subtitle": "Let us help you reach your customers and achieve real results" },
+  "serviceNames": {
+    "web-design": "Web Design & Development",
+    "ecommerce": "E-Commerce Stores",
+    "seo": "Search Engine Optimization",
+    "social-media": "Social Media Management",
+    "ads": "Advertising Campaigns",
+    "video": "Video Production",
+    "platforms": "Digital Platforms",
+    "store-management": "Store Management",
+    "content": "Content Creation"
+  },
+  "serviceDescriptions": {
+    "web-design": "Fast, modern, fully responsive websites that build your brand.",
+    "ecommerce": "Professional online stores with seamless shopping experience.",
+    "seo": "We get you to the top search results with a well-crafted SEO strategy.",
+    "social-media": "Full management of your channels with engaging content.",
+    "ads": "Paid advertising campaigns with the highest ROI and lowest cost.",
+    "video": "Professional videos with editing and visual identity.",
+    "platforms": "Custom digital platforms built exactly for your project's needs.",
+    "store-management": "Complete store management from orders to customer service.",
+    "content": "Professionally written marketing content that delivers your message."
+  },
+  "projectNames": { "rabaq": "Rabaq", "sahem": "Sahem", "vaneersa": "Vaneersa", "lajoie": "Lajoie", "kidsrus": "Kids R Us" },
+  "projectDescriptions": {
+    "rabaq": "Luxury perfume store with elegant visual identity.",
+    "sahem": "E-commerce platform with modern design.",
+    "vaneersa": "Multi-language corporate website.",
+    "lajoie": "Elegant e-commerce store.",
+    "kidsrus": "Kids entertainment website with playful design."
+  }
+}
