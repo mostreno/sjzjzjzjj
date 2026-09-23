@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ar-EG" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+<title>خدمة | لحظة ميديا</title>
+<meta name="description" content="لحظة ميديا — وكالة تسويق وحلول رقمية. خدمة | لحظة ميديا">
+<meta name="theme-color" content="#7c4dff">
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/pages.css">
+
+</head>
+<body class="page-service">
+
+<header class="navbar" id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="images/logo.png" alt="Lahza Media">
+        <span>لحظة <span class="brand">ميديا</span></span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html" class="" data-i18n="nav.home">الرئيسية</a>
+        <a href="about.html" class="" data-i18n="nav.about">من نحن</a>
+        <a href="services.html" class="active" data-i18n="nav.services">خدماتنا</a>
+        <a href="portfolio.html" class="" data-i18n="nav.portfolio">أعمالنا</a>
+        <a href="vision.html" class="" data-i18n="nav.vision">رؤيتنا</a>
+        <a href="contact.html" class="" data-i18n="nav.contact">تواصل</a>
+        
+      </nav>
+      <div class="nav-actions">
+        <div class="lang-switch">
+          <button class="lang-btn" aria-label="Change language">
+            <span class="lang-label">🇪🇬 مصري</span>
+          </button>
+          <div class="lang-dropdown">
+            <button data-locale="ar-EG" class="active">🇪🇬 مصري</button>
+            <button data-locale="ar-SA">🇸🇦 سعودي</button>
+            <button data-locale="en">🇬🇧 English</button>
+            <button data-locale="de">🇩🇪 Deutsch</button>
+          </div>
+        </div>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu"><span data-icon="menu"></span></button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html" data-i18n="nav.home">الرئيسية</a>
+        <a href="about.html" data-i18n="nav.about">من نحن</a>
+        <a href="services.html" data-i18n="nav.services">خدماتنا</a>
+        <a href="portfolio.html" data-i18n="nav.portfolio">أعمالنا</a>
+        <a href="vision.html" data-i18n="nav.vision">رؤيتنا</a>
+        <a href="contact.html" data-i18n="nav.contact">تواصل</a>
+        
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="service-detail-hero">
+  <div class="page-hero-bg">
+    <div class="page-hero-logo">
+      <img src="images/logo.png" alt="">
+    </div>
+  </div>
+  <div class="container" style="position: relative; z-index: 2;">
+    <div class="service-detail-icon"><span data-icon="share"></span></div>
+    <h1 data-i18n="serviceNames.social-media">اسم الخدمة</h1>
+    <p data-i18n="serviceDescriptions.social-media">وصف الخدمة</p>
+    <div style="margin-top: 32px;">
+      <a href="https://wa.me/966562978648" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-shimmer">
+        <span data-icon="message"></span>
+        <span data-i18n="contact.whatsapp">واتساب</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="content-page">
+  <div class="container">
+    <div class="prose" style="max-width: 100%;">
+      <h2 class="reveal" data-i18n="services.whatWeOffer">إيه اللي بنقدّمه؟</h2>
+      <p class="reveal">بنقدّم خدمة متكاملة بكل احترافية — من التخطيط للتنفيذ للمتابعة.</p>
+      
+      <div class="service-features">
+        <div class="service-feature">
+          <div class="service-feature-icon"><span data-icon="check"></span></div>
+          <span data-i18n="serviceFeatures.f1">فريق متخصص لكل خدمة</span>
+        </div>
+        <div class="service-feature">
+          <div class="service-feature-icon"><span data-icon="check"></span></div>
+          <span data-i18n="serviceFeatures.f2">تسليم في الوقت المحدد</span>
+        </div>
+        <div class="service-feature">
+          <div class="service-feature-icon"><span data-icon="check"></span></div>
+          <span data-i18n="serviceFeatures.f3">متابعة مستمرة بعد التسليم</span>
+        </div>
+        <div class="service-feature">
+          <div class="service-feature-icon"><span data-icon="check"></span></div>
+          <span data-i18n="serviceFeatures.f4">تقارير ونتائج قابلة للقياس</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-gray">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 data-i18n="services.otherServices">خدمات تانية</h2>
+    </div>
+    <div class="services-grid" id="servicesGridFull"></div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-box">
+      <h2 data-i18n="cta.title">جاهز تبدأ مشروعك؟</h2>
+      <p data-i18n="cta.subtitle">خلينا نساعدك توصل لعملائك وتحقق نتائج حقيقية</p>
+      <div class="cta-actions">
+        <a href="tel:+966562978648" class="btn btn-shimmer">
+          <span data-icon="phone"></span>
+          <span data-i18n="contact.call">اتصل بينا</span>
+        </a>
+        <a href="https://wa.me/966562978648" target="_blank" rel="noopener noreferrer" class="btn btn-dark">
+          <span data-icon="message"></span>
+          <span data-i18n="contact.whatsapp">واتساب</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="images/logo.png" alt="Lahza Media">
+          <span>لحظة <span class="accent">ميديا</span></span>
+        </div>
+        <p data-i18n="hero.subtitle">لحظة ميديا شريكك الرقمي — بنفهم مشروعك، وبننفّذ الحل المناسب، وبنكمّل معاك لحد ما توصل لنتيجة حقيقية.</p>
+        <div class="footer-socials">
+          <a href="https://www.facebook.com/profile.php?id=61594535481918" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><span data-icon="facebook"></span></a>
+          <a href="https://www.instagram.com/lahzamediasa/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><span data-icon="instagram"></span></a>
+          <a href="https://www.tiktok.com/@lahzamediasa" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><span data-icon="music"></span></a>
+        </div>
+      </div>
+
+      <div>
+        <h3 data-i18n="footer.quickLinks">روابط سريعة</h3>
+        <ul>
+          <li><a href="index.html" data-i18n="nav.home">الرئيسية</a></li>
+          <li><a href="about.html" data-i18n="nav.about">من نحن</a></li>
+          <li><a href="services.html" data-i18n="nav.services">خدماتنا</a></li>
+          <li><a href="portfolio.html" data-i18n="nav.portfolio">أعمالنا</a></li>
+          <li><a href="careers.html" data-i18n="nav.careers">اشتغل معانا</a></li>
+          <li><a href="faq.html" data-i18n="nav.faq">الأسئلة الشائعة</a></li>
+          
+        </ul>
+      </div>
+
+      <div>
+        <h3 data-i18n="footer.contactUs">تواصل معانا</h3>
+        <ul>
+          <li><a href="tel:+966562978648" class="footer-contact-item"><span data-icon="phone"></span> <span dir="ltr">+966 56 297 8648</span></a></li>
+          <li><a href="https://wa.me/966562978648" target="_blank" rel="noopener noreferrer" class="footer-contact-item"><span data-icon="message"></span> WhatsApp</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © <span id="year"></span> لحظة ميديا. <span data-i18n="footer.rights">كل الحقوق محفوظة</span>.
+    </div>
+  </div>
+</footer>
+
+<button class="scroll-top" id="scrollTop" aria-label="Scroll to top"><span data-icon="arrowUp"></span></button>
+
+<script src="js/data.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
