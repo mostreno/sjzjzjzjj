@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar-EG" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>404 | لحظة ميديا</title>
+<link rel="icon" href="/images/logo.png">
+<link rel="stylesheet" href="/css/style.css">
+<style>
+  .err-wrap {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+    background: #f7f7f8;
+  }
+  .err-code {
+    font-size: clamp(6rem, 20vw, 10rem);
+    font-weight: 900;
+    background: linear-gradient(135deg, #7c4dff, #b7a6ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1;
+    animation: bounceIn 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+  .err-title { font-size: 1.75rem; font-weight: 800; margin: 1rem 0; color: #1a1a24; animation: fadeUp 0.8s 0.3s both; }
+  .err-desc { color: #5c5c70; margin-bottom: 2rem; animation: fadeUp 0.8s 0.5s both; }
+  @keyframes bounceIn { 0% { opacity: 0; transform: scale(0.3); } 50% { opacity: 1; transform: scale(1.05); } 100% { transform: scale(1); } }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+</style>
+</head>
+<body>
+<div class="err-wrap">
+  <div>
+    <div class="err-code">404</div>
+    <h1 class="err-title">الصفحة مش موجودة</h1>
+    <p class="err-desc">يمكن الرابط قديم أو فيه غلطة</p>
+    <a href="/" style="display: inline-flex; align-items: center; gap: 8px; padding: 14px 28px; background: #7c4dff; color: #fff; font-weight: 700; border-radius: 12px; text-decoration: none;">الرئيسية</a>
+  </div>
+</div>
+</body>
+</html>
