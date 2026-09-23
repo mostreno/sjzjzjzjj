@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ar-EG" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+<title>اشتغل معانا | لحظة ميديا</title>
+<meta name="description" content="اشتغل معانا - لحظة ميديا">
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+<header class="navbar" id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="images/logo.png" alt="لحظة ميديا">
+        <span>لحظة <span class="brand">ميديا</span></span>
+      </a>
+      <nav class="nav-links"><a href="index.html" data-i18n="nav.home">الرئيسية</a>
+        <a href="about.html" data-i18n="nav.about">من نحن</a>
+        <a href="services.html" data-i18n="nav.services">خدماتنا</a>
+        <a href="portfolio.html" data-i18n="nav.portfolio">أعمالنا</a>
+        <a href="contact.html" data-i18n="nav.contact">تواصل</a></nav>
+      <div class="nav-actions">
+        <div class="lang-switch">
+          <button class="lang-btn"><span class="lang-label">🇪🇬 مصري</span></button>
+          <div class="lang-dropdown">
+            <button data-locale="ar-EG" class="active">🇪🇬 مصري</button>
+            <button data-locale="ar-SA">🇸🇦 سعودي</button>
+            <button data-locale="en">🇬🇧 English</button>
+            <button data-locale="de">🇩🇪 Deutsch</button>
+          </div>
+        </div>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu"></button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html" data-i18n="nav.home">الرئيسية</a>
+        <a href="about.html" data-i18n="nav.about">من نحن</a>
+        <a href="services.html" data-i18n="nav.services">خدماتنا</a>
+        <a href="portfolio.html" data-i18n="nav.portfolio">أعمالنا</a>
+        <a href="contact.html" data-i18n="nav.contact">تواصل</a>
+    </div>
+  </div>
+</header>
+
+<main>
+<h1 data-i18n="careers.title">اشتغل معانا</h1>
+<p data-i18n="careers.subtitle">انضم لفريق لحظة ميديا</p>
+<div class="container" style="padding: 32px 1rem 96px; max-width: 600px; text-align: center;">
+      <p style="font-size: 1.1rem; color: var(--ink-600); margin-bottom: 24px;">ابعتلنا وكلمنا — بنستقبل المواهب باستخدام.</p>
+      <a href="https://wa.me/966562978648" target="_blank" rel="noopener noreferrer" class="btn btn-primary">تواصل معانا</a>
+    </div>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="images/logo.png" alt="لحظة ميديا">
+          <span>لحظة <span class="accent">ميديا</span></span>
+        </div>
+        <p>وكالة تسويق وحلول رقمية — بنفهم مشروعك، وبننفّذ الحل المناسب.</p>
+      </div>
+      <div>
+        <h3 data-i18n="footer.quickLinks">روابط سريعة</h3>
+        <ul>
+          <li><a href="index.html" data-i18n="nav.home">الرئيسية</a></li>
+          <li><a href="about.html" data-i18n="nav.about">من نحن</a></li>
+          <li><a href="services.html" data-i18n="nav.services">خدماتنا</a></li>
+          <li><a href="portfolio.html" data-i18n="nav.portfolio">أعمالنا</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 data-i18n="footer.contactUs">تواصل معانا</h3>
+        <ul>
+          <li><a href="tel:+966562978648" class="footer-contact-item">📞 <span dir="ltr">+966 56 297 8648</span></a></li>
+          <li><a href="https://wa.me/966562978648" target="_blank" rel="noopener noreferrer" class="footer-contact-item">💬 WhatsApp</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © <span id="year"></span> لحظة ميديا. <span data-i18n="footer.rights">كل الحقوق محفوظة</span>.
+    </div>
+  </div>
+</footer>
+
+<button class="scroll-top" id="scrollTop" aria-label="Scroll to top"></button>
+
+<script src="js/data.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var I = window.LAHZA_ICONS;
+    document.getElementById('menuToggle').innerHTML = I.menu;
+    document.getElementById('scrollTop').innerHTML = I.arrowUp;
+    document.getElementById('year').textContent = new Date().getFullYear();
+  });
+</script>
+</body>
+</html>
